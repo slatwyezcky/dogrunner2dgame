@@ -65,7 +65,7 @@ export class Fly extends FlyingEnemy {
     this.height = 44;
     this.maxFrame = 5;
     this.image = new Image();
-    this.image.src = "/assets/img/enemy_fly.png";
+    this.image.src = "./assets/img/enemy_fly.png";
   }
 }
 
@@ -76,7 +76,7 @@ export class Bat extends FlyingEnemy {
     this.height = 49;
     this.maxFrame = 5;
     this.image = new Image();
-    this.image.src = "/assets/img/enemy_bat_3.png";
+    this.image.src = "./assets/img/enemy_bat_3.png";
   }
 }
 
@@ -87,7 +87,7 @@ export class Ghost extends FlyingEnemy {
     this.height = 70;
     this.maxFrame = 5;
     this.image = new Image();
-    this.image.src = "/assets/img/enemy_ghost_3.png";
+    this.image.src = "./assets/img/enemy_ghost_3.png";
   }
 }
 
@@ -107,7 +107,7 @@ export class Plant extends GroundEnemy {
     this.height = 87;
     this.y = this.game.height - this.height - this.game.groundMargin;
     this.image = new Image();
-    this.image.src = "/assets/img/enemy_plant.png";
+    this.image.src = "./assets/img/enemy_plant.png";
     this.speedX = 0;
     this.maxFrame = 1;
   }
@@ -120,7 +120,7 @@ export class GroundZombie extends GroundEnemy {
     this.height = 90;
     this.y = this.game.height - this.height - this.game.groundMargin;
     this.image = new Image();
-    this.image.src = "/assets/img/enemy_ground_zombie.png";
+    this.image.src = "./assets/img/enemy_ground_zombie.png";
     this.speedX = 0;
     this.maxFrame = 1;
   }
@@ -133,7 +133,7 @@ export class Zombie extends GroundEnemy {
     this.height = 150;
     this.y = this.game.height - this.height - this.game.groundMargin;
     this.image = new Image();
-    this.image.src = "/assets/img/enemy_zombie.png";
+    this.image.src = "./assets/img/enemy_zombie.png";
     this.speedX = Math.random() + 2;
     this.maxFrame = 7;
   }
@@ -172,7 +172,7 @@ export class BigSpider extends ClimbingEnemy {
     this.x = this.game.width + Math.random() * 50;
     this.y = Math.random() * this.game.height * 0.5;
     this.image = new Image();
-    this.image.src = "/assets/img/enemy_spider_big.png";
+    this.image.src = "./assets/img/enemy_spider_big.png";
   }
 }
 
@@ -184,6 +184,6 @@ export class SmallSpider extends ClimbingEnemy {
     this.x = this.game.width;
     this.y = Math.random() * this.game.height * 0.5;
     this.image = new Image();
-    this.image.src = "/assets/img/enemy_spider.png";
+    this.image.src = "./assets/img/enemy_spider.png";
   }
 }

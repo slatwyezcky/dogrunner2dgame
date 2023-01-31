@@ -41,7 +41,7 @@ export class Splash extends Particle {
     this.speedX = Math.random() * 2 + 2;
     this.gravity = 0;
     this.image = new Image();
-    this.image.src = "assets/img/fire.png";
+    this.image.src = "./assets/img/fire.png";
   }
 
   update() {
@@ -59,7 +59,7 @@ export class Fire extends Particle {
   constructor(game, x, y) {
     super(game);
     this.image = new Image();
-    this.image.src = "assets/img/fire.png";
+    this.image.src = "./assets/img/fire.png";
     this.size = Math.random() * 100 + 50;
     this.x = x;
     this.y = y;

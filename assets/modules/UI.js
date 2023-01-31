@@ -4,9 +4,9 @@ export class UI {
     this.fontSize = 30;
     this.fontFamily = "Creepster";
     this.liveImage = new Image();
-    this.liveImage.src = "assets/img/lives.png";
+    this.liveImage.src = "./assets/img/lives.png";
     this.gameOverImage = new Image();
-    this.gameOverImage.src = "assets/img/darksouls.png";
+    this.gameOverImage.src = "./assets/img/darksouls.png";
   }
 
   draw(context) {
@@ -29,7 +29,7 @@ export class UI {
       );
       context.font = this.fontSize + "px " + this.fontFamily;
       context.fillText(
-        "Kill as much monsters as you can in 30sec",
+        "Kill as many monsters as you can in 30sec",
         this.game.width * 0.5,
         this.game.height * 0.5 + 50
       );
