@@ -4,9 +4,9 @@ export class UI {
     this.fontSize = 30;
     this.fontFamily = "Creepster";
     this.liveImage = new Image();
-    this.liveImage.src = "./assets/img/lives.png";
+    this.liveImage.src = "/assets/img/lives.png";
     this.gameOverImage = new Image();
-    this.gameOverImage.src = "./assets/img/darksouls.png";
+    this.gameOverImage.src = "/assets/img/darksouls.png";
   }
 
   draw(context) {
@@ -74,7 +74,7 @@ export class UI {
         context.textAlign = "center";
         context.font = this.fontSize * 1.5 + "px " + this.fontFamily;
         context.strokeStyle = "black";
-        context.lineWidth = 8;
+        context.lineWidth = 5;
         context.strokeText(
           "Score: " + this.game.score,
           this.game.width * 0.5,

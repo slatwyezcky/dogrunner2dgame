@@ -6,8 +6,8 @@ import {
   Rolling,
   Diving,
   Hit,
-} from "./assets/modules/playerState.js";
-import { CollisionAnimation } from "./assets/modules/collisionAnimation.js";
+} from "/assets/modules/playerState.js";
+import { CollisionAnimation } from "/assets/modules/collisionAnimation.js";
 
 export default class Player {
   constructor(game) {
@@ -19,7 +19,7 @@ export default class Player {
     this.vy = 0;
     this.weight = 1;
     this.image = new Image();
-    this.image.src = "./assets/img/player.png";
+    this.image.src = "/assets/img/player.png";
     this.frameX = 0;
     this.frameY = 0;
     this.maxFrame;

@@ -33,19 +33,19 @@ export class Background {
     this.height = 500;
 
     this.layer5image = new Image();
-    this.layer5image.src = "./assets/img/layer-5.png";
+    this.layer5image.src = "/assets/img/layer-5.png";
 
     this.layer4image = new Image();
-    this.layer4image.src = "./assets/img/layer-4.png";
+    this.layer4image.src = "/assets/img/layer-4.png";
 
     this.layer3image = new Image();
-    this.layer3image.src = "./assets/img/layer-3.png";
+    this.layer3image.src = "/assets/img/layer-3.png";
 
     this.layer2image = new Image();
-    this.layer2image.src = "./assets/img/layer-2.png";
+    this.layer2image.src = "/assets/img/layer-2.png";
 
     this.layer1image = new Image();
-    this.layer1image.src = "./assets/img/layer-1.png";
+    this.layer1image.src = "/assets/img/layer-1.png";
 
     this.layer1 = new Layer(
       this.game,
