@@ -6,8 +6,8 @@ import {
   Rolling,
   Diving,
   Hit,
-} from "/assets/modules/playerState.js";
-import { CollisionAnimation } from "/assets/modules/collisionAnimation.js";
+} from "/dogrunner2dgame/assets/modules/playerState.js";
+import { CollisionAnimation } from "/dogrunner2dgame/assets/modules/collisionAnimation.js";
 
 export default class Player {
   constructor(game) {
