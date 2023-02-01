@@ -2,7 +2,7 @@ export class CollisionAnimation {
   constructor(game, x, y) {
     this.game = game;
     this.image = new Image();
-    this.image.src = "assets/img/boom.png";
+    this.image.src = "/assets/img/boom.png";
     this.spriteWidth = 100;
     this.spriteHeight = 90;
     this.sizeModifier = Math.random() + 0.5;
