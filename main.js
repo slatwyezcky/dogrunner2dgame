@@ -1,6 +1,6 @@
-import Player from "../assets/modules/player.js";
-import InputHandler from "../assets/modules/inputHandler.js";
-import { Background } from "../assets/modules/background.js";
+import Player from "/dogrunner2dgame/assets/modules/player.js";
+import InputHandler from "/dogrunner2dgame/assets/modules/inputHandler.js";
+import { Background } from "/dogrunner2dgame/assets/modules/background.js";
 import {
   Plant,
   Fly,
@@ -10,8 +10,8 @@ import {
   GroundZombie,
   BigSpider,
   SmallSpider,
-} from "../assets/modules/enemies.js";
-import { UI } from "../assets/modules/UI.js";
+} from "/dogrunner2dgame/assets/modules/enemies.js";
+import { UI } from "/dogrunner2dgame/assets/modules/UI.js";
 
 window.addEventListener("load", function () {
   const canvas = document.getElementById("canvas");
