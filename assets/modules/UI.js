@@ -4,9 +4,9 @@ export class UI {
     this.fontSize = 30;
     this.fontFamily = "Creepster";
     this.liveImage = new Image();
-    this.liveImage.src = "/assets/img/lives.png";
+    this.liveImage.src = "/dogrunner2dgame/assets/img/lives.png";
     this.gameOverImage = new Image();
-    this.gameOverImage.src = "/assets/img/darksouls.png";
+    this.gameOverImage.src = "/dogrunner2dgame/assets/img/darksouls.png";
   }
 
   draw(context) {
