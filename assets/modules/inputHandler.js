@@ -12,6 +12,7 @@ export default class InputHandler {
         this.keys.indexOf(e.key) === -1
       ) {
         this.keys.push(e.key);
+        this.lastKey = e.key;
       } else if (this.game.gameOver && e.key === "Enter") {
         window.location.reload();
       } else if (this.game.gameStart && e.key === "Enter") {
