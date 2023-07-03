@@ -1,6 +1,6 @@
 # Dog Runner 2D Game
 
-This repository contains a simple 2D platformer game built using JavaScript . In this game, you control an adorable dog as it navigates through various levels, collecting bones and avoiding obstacles.
+This repository contains a simple 2D platformer game built using JavaScript . In this game, you control an adorable dog as it navigates through level with different enemies.
 
 ## Demo
 
@@ -8,10 +8,9 @@ Play the game now by accessing the live demo [here](https://pawelslatwyezcky.git
 
 ## Gameplay
 
-- Use the arrow keys (up, down, left, right) or the WASD keys to control the dog's movement.
-- Collect bones to earn points and increase your score.
+- Use the arrow keys (up, down, left, right) or the WASD and Ctrl keys to control the dog's movement and attack.
 - Jump over obstacles and avoid hazards to keep the dog safe.
-- Reach the end of each level to progress to the next exciting challenge.
+- Achieve maximum score in 30 seconds.
 
 ## Features
 
